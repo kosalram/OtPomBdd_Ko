@@ -16,7 +16,7 @@ public class MyFirstTest {
 		UrlHelper url = new UrlHelper();
 		driver.get(url.getTestPageURL());
 		OtMethodsHelper othelper = new OtMethodsHelper(driver);
-		System.out.println("the title is " + othelper.getPageTitle());
+		System.out.println("the title is - " + othelper.getPageTitle());
 
 	}
 
